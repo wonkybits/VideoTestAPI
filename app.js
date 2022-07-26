@@ -9,8 +9,16 @@ let app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.listen(3000, () => {
-	console.log("server running on port 3000");
+// app.listen(8080, () => {
+// 	console.log("server running on port 8080");
+// });
+
+const PORT = process.env.PORT || 5001;
+
+app.listen(PORT, () => console.log(`Server is listening on port ${PORT}...`));
+
+app.get("/", (req, res, next) => {
+	res.sendFile(path.join(__dirname, "index.html"));
 });
 
 app.get("/getvideos", (req, res, next) => {
