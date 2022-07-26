@@ -50,7 +50,7 @@ app.get("/getcarousels", (req, res, next) => {
 });
 
 app.post("/getvideoinfo", (req, res, next) => {
-	const id = req.query.id;
+	const id = req.body.id;
 	if (id) {
 		if (isNaN(id)) {
 			res.status(400).send({ message: "'id' must be a number" });
@@ -87,6 +87,10 @@ app.post("/getvideoinfo", (req, res, next) => {
 				});
 		}
 	} else {
-		res.status(400).send({ message: "query parameter 'id' missing" });
+		res
+			.status(400)
+			.send({
+				message: 'body must include json object of the for {"id": "value"}',
+			});
 	}
 });
