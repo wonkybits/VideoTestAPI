@@ -4,6 +4,7 @@
 	"description": "A basic API for retrieving test data for video viewing apps.\"",
 	"main": "app.js",
 	"scripts": {
+		"start": "node app.js",
 		"dev": "nodemon app.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
