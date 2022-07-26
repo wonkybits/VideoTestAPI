@@ -4,6 +4,8 @@ API with test data for video playback apps
 
 # Endpoints
 
-1. https://videotestapi.herokuapp.com/getcarousels
-2. https://videotestapi.herokuapp.com/getvideos
-3. https://videotestapi.herokuapp.com/getvideoinfo?id=[video id]
+https://videotestapi.herokuapp.com/
+
+1. getcarousels
+2. getvideos
+3. getvideoinfo?id=[video id]
