@@ -21,6 +21,11 @@ app.get("/", (req, res, next) => {
 	res.sendFile(path.join(__dirname, "index.html"));
 });
 
+app.get("/cors", (req, res) => {
+	res.set("Access-Control-Allow-Origin", "*");
+	res.send({ msg: "This has CORS enabled 🎈" });
+});
+
 app.get("/getvideos", (req, res, next) => {
 	const filename = path.resolve(__dirname, "./data/videos.json");
 	fs.readFile(filename)
@@ -87,10 +92,8 @@ app.post("/getvideoinfo", (req, res, next) => {
 				});
 		}
 	} else {
-		res
-			.status(400)
-			.send({
-				message: 'body must include json object of the for {"id": "value"}',
-			});
+		res.status(400).send({
+			message: 'body must include json object of the for {"id": "value"}',
+		});
 	}
 });
