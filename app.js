@@ -27,6 +27,7 @@ app.get("/cors", (req, res) => {
 });
 
 app.get("/getvideos", (req, res, next) => {
+	res.set("Access-Control-Allow-Origin", "*");
 	const filename = path.resolve(__dirname, "./data/videos.json");
 	fs.readFile(filename)
 		.then((rawData) => {
@@ -41,6 +42,7 @@ app.get("/getvideos", (req, res, next) => {
 });
 
 app.get("/getcarousels", (req, res, next) => {
+	res.set("Access-Control-Allow-Origin", "*");
 	const filename = path.resolve(__dirname, "./data/carousels.json");
 	fs.readFile(filename)
 		.then((rawData) => {
@@ -55,6 +57,7 @@ app.get("/getcarousels", (req, res, next) => {
 });
 
 app.post("/getvideoinfo", (req, res, next) => {
+	res.set("Access-Control-Allow-Origin", "*");
 	const id = req.body.id;
 	if (id) {
 		if (isNaN(id)) {
