@@ -4,6 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const fs = require("fs").promises;
 const path = require("path");
+const cors = require("cors");
 
 let app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -17,17 +18,16 @@ const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, () => console.log(`Server is listening on port ${PORT}...`));
 
+app.use(cors());
+const corsOptions = {
+	origin: "*",
+};
+
 app.get("/", (req, res, next) => {
 	res.sendFile(path.join(__dirname, "index.html"));
 });
 
-app.get("/cors", (req, res) => {
-	res.set("Access-Control-Allow-Origin", "*");
-	res.send({ msg: "This has CORS enabled 🎈" });
-});
-
-app.get("/getvideos", (req, res, next) => {
-	res.set("Access-Control-Allow-Origin", "*");
+app.get("/getvideos", cors(corsOptions), (req, res, next) => {
 	const filename = path.resolve(__dirname, "./data/videos.json");
 	fs.readFile(filename)
 		.then((rawData) => {
@@ -41,8 +41,7 @@ app.get("/getvideos", (req, res, next) => {
 		});
 });
 
-app.get("/getcarousels", (req, res, next) => {
-	res.set("Access-Control-Allow-Origin", "*");
+app.get("/getcarousels", cors(corsOptions), (req, res, next) => {
 	const filename = path.resolve(__dirname, "./data/carousels.json");
 	fs.readFile(filename)
 		.then((rawData) => {
@@ -56,8 +55,7 @@ app.get("/getcarousels", (req, res, next) => {
 		});
 });
 
-app.post("/getvideoinfo", (req, res, next) => {
-	res.set("Access-Control-Allow-Origin", "*");
+app.post("/getvideoinfo", cors(corsOptions), (req, res, next) => {
 	const id = req.body.id;
 	if (id) {
 		if (isNaN(id)) {
