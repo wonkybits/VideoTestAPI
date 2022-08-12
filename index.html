@@ -7,12 +7,15 @@
 		<p>API for consuming test data for video playback apps.</p>
 		<p>Endpoint are as follows</p>
 		<ul>
-			<li>getcarousels</li>
-			<li>getvideos</li>
+			<li>/getcarousels</li>
+			<li>/getvideos</li>
 			<li>
-				getvideoinfo?id=<b>[video id]</b>, <b>video id's</b> can be found using
-				getvideos
+				/getvideoinfo, send
+				<b>id</b>
+				in header body, json
 			</li>
+			<li>/videotest to test video stream</li>
+			<li>/video for video stream (big buck bunny)</li>
 		</ul>
 	</body>
 </html>
