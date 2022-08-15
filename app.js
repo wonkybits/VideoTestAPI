@@ -27,6 +27,20 @@ app.get("/", (req, res, next) => {
 	res.sendFile(path.join(__dirname, "index.html"));
 });
 
+app.get("/appconfig", (req, res) => {
+	const filename = path.resolve(__dirname, "./data/app_config.json");
+	fs.readFile(filename, (err, data) => {
+		if (err) {
+			console.error(`error in reading app config data file, -> ${err}`);
+			res
+				.status(400)
+				.send({ message: `error in reading app config data file, -> ${err}` });
+		}
+
+		res.status(200).json(JSON.parse(data));
+	});
+});
+
 app.get("/videotest", cors(corsOptions), (req, res) => {
 	res.sendFile(path.join(__dirname, "videoTest.html"));
 });
