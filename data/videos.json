@@ -4,7 +4,6 @@
 		"title": "Video 1",
 		"thumbnail": "http://www.fillmurray.com/440/228",
 		"description": "HODOR hodor, hodor. Hodor hodor. Hodor hodor! Hodor! Hodor hodor. Hodor, hodor, hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor. HODOR? Hodor, hodor, hodor hodor. Hodor! Hodor hodor. HODOR? Hodor... Hodor hodor. Hodor hodor. Hodor... Hodor hodor. Hodor hodor. Hodor, hodor. Hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor. Hodor hodor. Hodor! Hodor hodor. HODOR hodor, hodor. Hodor? Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor. Hodor. HODOR? Hodor? Hodor hodor! Hodor, hodor, hodor hodor. Hodor... Hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor... Hodor hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor! Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor.",
-		"interstitial": false,
 		"link": "https://videotestapi.herokuapp.com/video"
 	},
 	{
@@ -12,7 +11,6 @@
 		"title": "Video 2",
 		"thumbnail": "http://www.fillmurray.com/440/228",
 		"description": "HODOR hodor, hodor. Hodor hodor. Hodor hodor! Hodor! Hodor hodor. Hodor, hodor, hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor. HODOR? Hodor, hodor, hodor hodor. Hodor! Hodor hodor. HODOR? Hodor... Hodor hodor. Hodor hodor. Hodor... Hodor hodor. Hodor hodor. Hodor, hodor. Hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor. Hodor hodor. Hodor! Hodor hodor. HODOR hodor, hodor. Hodor? Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor. Hodor. HODOR? Hodor? Hodor hodor! Hodor, hodor, hodor hodor. Hodor... Hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor... Hodor hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor! Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor.",
-		"interstitial": true,
 		"link": "https://videotestapi.herokuapp.com/video"
 	},
 	{
@@ -20,7 +18,6 @@
 		"title": "Video 3",
 		"thumbnail": "http://www.fillmurray.com/440/228",
 		"description": "HODOR hodor, hodor. Hodor hodor. Hodor hodor! Hodor! Hodor hodor. Hodor, hodor, hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor. HODOR? Hodor, hodor, hodor hodor. Hodor! Hodor hodor. HODOR? Hodor... Hodor hodor. Hodor hodor. Hodor... Hodor hodor. Hodor hodor. Hodor, hodor. Hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor. Hodor hodor. Hodor! Hodor hodor. HODOR hodor, hodor. Hodor? Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor. Hodor. HODOR? Hodor? Hodor hodor! Hodor, hodor, hodor hodor. Hodor... Hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor... Hodor hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor! Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor.",
-		"interstitial": false,
 		"link": "https://videotestapi.herokuapp.com/video"
 	},
 	{
@@ -28,7 +25,6 @@
 		"title": "Video 4",
 		"thumbnail": "http://www.fillmurray.com/440/228",
 		"description": "HODOR hodor, hodor. Hodor hodor. Hodor hodor! Hodor! Hodor hodor. Hodor, hodor, hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor. HODOR? Hodor, hodor, hodor hodor. Hodor! Hodor hodor. HODOR? Hodor... Hodor hodor. Hodor hodor. Hodor... Hodor hodor. Hodor hodor. Hodor, hodor. Hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor. Hodor hodor. Hodor! Hodor hodor. HODOR hodor, hodor. Hodor? Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor. Hodor. HODOR? Hodor? Hodor hodor! Hodor, hodor, hodor hodor. Hodor... Hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor... Hodor hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor! Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor.",
-		"interstitial": false,
 		"link": "https://videotestapi.herokuapp.com/video"
 	},
 	{
@@ -36,7 +32,6 @@
 		"title": "Video 5",
 		"thumbnail": "http://www.fillmurray.com/440/228",
 		"description": "HODOR hodor, hodor. Hodor hodor. Hodor hodor! Hodor! Hodor hodor. Hodor, hodor, hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor. HODOR? Hodor, hodor, hodor hodor. Hodor! Hodor hodor. HODOR? Hodor... Hodor hodor. Hodor hodor. Hodor... Hodor hodor. Hodor hodor. Hodor, hodor. Hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor. Hodor hodor. Hodor! Hodor hodor. HODOR hodor, hodor. Hodor? Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor. Hodor. HODOR? Hodor? Hodor hodor! Hodor, hodor, hodor hodor. Hodor... Hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor... Hodor hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor! Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor.",
-		"interstitial": true,
 		"link": "https://videotestapi.herokuapp.com/video"
 	},
 	{
@@ -44,7 +39,6 @@
 		"title": "Video 6",
 		"thumbnail": "http://www.fillmurray.com/440/228",
 		"description": "HODOR hodor, hodor. Hodor hodor. Hodor hodor! Hodor! Hodor hodor. Hodor, hodor, hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor. HODOR? Hodor, hodor, hodor hodor. Hodor! Hodor hodor. HODOR? Hodor... Hodor hodor. Hodor hodor. Hodor... Hodor hodor. Hodor hodor. Hodor, hodor. Hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor. Hodor hodor. Hodor! Hodor hodor. HODOR hodor, hodor. Hodor? Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor. Hodor. HODOR? Hodor? Hodor hodor! Hodor, hodor, hodor hodor. Hodor... Hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor... Hodor hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor! Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor.",
-		"interstitial": false,
 		"link": "https://videotestapi.herokuapp.com/video"
 	},
 	{
@@ -52,7 +46,6 @@
 		"title": "Video 7",
 		"thumbnail": "http://www.fillmurray.com/440/228",
 		"description": "HODOR hodor, hodor. Hodor hodor. Hodor hodor! Hodor! Hodor hodor. Hodor, hodor, hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor. HODOR? Hodor, hodor, hodor hodor. Hodor! Hodor hodor. HODOR? Hodor... Hodor hodor. Hodor hodor. Hodor... Hodor hodor. Hodor hodor. Hodor, hodor. Hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor. Hodor hodor. Hodor! Hodor hodor. HODOR hodor, hodor. Hodor? Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor. Hodor. HODOR? Hodor? Hodor hodor! Hodor, hodor, hodor hodor. Hodor... Hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor... Hodor hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor! Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor.",
-		"interstitial": true,
 		"link": "https://videotestapi.herokuapp.com/video"
 	},
 	{
@@ -60,7 +53,6 @@
 		"title": "Video 8",
 		"thumbnail": "http://www.fillmurray.com/440/228",
 		"description": "HODOR hodor, hodor. Hodor hodor. Hodor hodor! Hodor! Hodor hodor. Hodor, hodor, hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor. HODOR? Hodor, hodor, hodor hodor. Hodor! Hodor hodor. HODOR? Hodor... Hodor hodor. Hodor hodor. Hodor... Hodor hodor. Hodor hodor. Hodor, hodor. Hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor. Hodor hodor. Hodor! Hodor hodor. HODOR hodor, hodor. Hodor? Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor. Hodor. HODOR? Hodor? Hodor hodor! Hodor, hodor, hodor hodor. Hodor... Hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor... Hodor hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor! Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor.",
-		"interstitial": false,
 		"link": "https://videotestapi.herokuapp.com/video"
 	},
 	{
@@ -68,7 +60,6 @@
 		"title": "Video 9",
 		"thumbnail": "http://www.fillmurray.com/440/228",
 		"description": "HODOR hodor, hodor. Hodor hodor. Hodor hodor! Hodor! Hodor hodor. Hodor, hodor, hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor. HODOR? Hodor, hodor, hodor hodor. Hodor! Hodor hodor. HODOR? Hodor... Hodor hodor. Hodor hodor. Hodor... Hodor hodor. Hodor hodor. Hodor, hodor. Hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor. Hodor hodor. Hodor! Hodor hodor. HODOR hodor, hodor. Hodor? Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor. Hodor. HODOR? Hodor? Hodor hodor! Hodor, hodor, hodor hodor. Hodor... Hodor hodor. HODOR HODOR! Hodor, hodor. Hodor. Hodor... Hodor hodor. Hodor, hodor, hodor hodor. Hodor hodor HODOR! Hodor. Hodor hodor! Hodor hodor! Hodor... Hodor hodor. Hodor, hodor. Hodor.",
-		"interstitial": true,
 		"link": "https://videotestapi.herokuapp.com/video"
 	}
 ]
